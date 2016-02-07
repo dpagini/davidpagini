@@ -1,2 +1,0 @@
-# Run `composer install`
-# Pray
