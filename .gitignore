@@ -1,0 +1,7 @@
+
+
+# Ignore Composer vendor directory
+vendor/
+
+# Ignore Druapl/Core
+docroot/core
