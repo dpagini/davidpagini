@@ -37,6 +37,8 @@ Documentation by role:
 
 ## TODO
 * Travis?
+  * PHP Unit
+  * Behat
 * cleanup Phing
 
 ## Files (move this to /docs/files?)
