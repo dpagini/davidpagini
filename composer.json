@@ -20,6 +20,7 @@
         "geerlingguy/drupal-vm":                    "^3.0",
         "drupal/examples":                          "8.1.x-dev",
         "drush/drush":                              "^9.0",
+        "phpunit/phpunit":                          "^4.8"
     },
     "minimum-stability": "dev",
     "prefer-stable":     true,

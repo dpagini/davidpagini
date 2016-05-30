@@ -1,5 +1,5 @@
 # DavidPagini.com
-
+[![Build Status](https://travis-ci.org/dpagini/davidpagini.svg?branch=master)](https://travis-ci.org/dpagini/davidpagini)
 Source code for the future davidpagini.com.
 
 ## Tools
