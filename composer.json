@@ -19,7 +19,7 @@
     "require-dev": {
         "geerlingguy/drupal-vm":                    "^3.0",
         "drupal/examples":                          "8.1.x-dev",
-        "drush/drush":                              "^9.0",
+        "drush/drush":                              "^9.0"
     },
     "minimum-stability": "dev",
     "prefer-stable":     true,
