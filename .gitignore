@@ -1,7 +1,46 @@
-
-
 # Ignore Composer vendor directory
 vendor/
+# Ignore the .vagrant folder
+.vagrant/
 
-# Ignore Druapl/Core
-docroot/core
+# *** DRUPAL ***
+docroot/core # *** Ignore Druapl Core
+# *** Ignore paths that contain user-generated content.
+docroot/sites/*/files
+docroot/sites/*/private
+# *** Ignore contrib modules. These should be created during build process.
+docroot/modules/contrib
+docroot/themes/contrib
+docroot/profiles/contrib
+docroot/libraries
+drush/contrib
+
+# Ignore configuration files that may contain sensitive information.
+build/phing/build.properties
+local.*
+
+# Ignore build artifacts
+/deploy
+bin/*
+tmp
+install/bin
+reports
+deploy_key
+
+# Local testing config
+tests/behat/local.yml
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._* # Thumbnails
+.Spotlight-V100
+.Trashes
+Thumbs.db # Windows image file caches
+ehthumbs.db # Windows image file caches
+Desktop.ini # Folder config file
+$RECYCLE.BIN/ # Recycle Bin used on file shares
+.idea/ # User-specific stuff
+xhprof_* #XHProf
