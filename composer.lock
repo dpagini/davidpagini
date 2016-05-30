@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "734af6348d1c05525c3b97cb7b868fe6",
-    "content-hash": "b854a3cac43d179a49d1a5eb3bb08a4e",
+    "hash": "7f35090d85a5e2e2a6de0820879523d6",
+    "content-hash": "dc2b72ce3e67acc84c0957546a186c45",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -882,6 +882,49 @@
             "time": "2016-05-04 11:20:24"
         },
         {
+            "name": "drupal/devel",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/devel",
+                "reference": "44d44182c3d8c92a4fa53ed5d3205e37b9203f5d"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/devel_generate": "self.version",
+                "drupal/devel_node_access": "self.version",
+                "drupal/kint": "self.version",
+                "drupal/webprofiler": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/devel_generate, drupal/devel_node_access, drupal/kint, drupal/webprofiler",
+                "drupal/menu_ui": "Required by drupal/devel_node_access"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "homepage": "https://github.com/weitzman",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "time": "2016-05-29 20:17:42"
+        },
+        {
             "name": "drupal/google_analytics",
             "version": "dev-8.x-2.x",
             "source": {
@@ -927,7 +970,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0-alpha1.zip",
-                "reference": null,
+                "reference": "ed786f33095fa2478761676ceed0bb0b16a63f0d",
                 "shasum": null
             },
             "require": {
@@ -3616,6 +3659,65 @@
             "time": "2014-10-24 07:27:01"
         },
         {
+            "name": "drupal/examples",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/examples.git",
+                "reference": "5f0036f7f98361fcdde7f5945889bd57f9f6e849"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/toolbar": "8.*"
+            },
+            "replace": {
+                "drupal/block_example": "self.version",
+                "drupal/cache_example": "self.version",
+                "drupal/config_entity_example": "self.version",
+                "drupal/content_entity_example": "self.version",
+                "drupal/cron_example": "self.version",
+                "drupal/dbtng_example": "self.version",
+                "drupal/email_example": "self.version",
+                "drupal/fapi_example": "self.version",
+                "drupal/field_example": "self.version",
+                "drupal/field_permission_example": "self.version",
+                "drupal/file_example": "self.version",
+                "drupal/js_example": "self.version",
+                "drupal/node_type_example": "self.version",
+                "drupal/page_example": "self.version",
+                "drupal/phpunit_example": "self.version",
+                "drupal/plugin_type_example": "self.version",
+                "drupal/tablesort_example": "self.version",
+                "drupal/tour_example": "self.version"
+            },
+            "suggest": {
+                "drupal/block": "Required by drupal/block_example",
+                "drupal/color": "Required by drupal/field_example",
+                "drupal/core": "Required by drupal/block_example, drupal/cache_example, drupal/config_entity_example, drupal/content_entity_example, drupal/cron_example, drupal/dbtng_example, drupal/email_example, drupal/fapi_example, drupal/field_example, drupal/field_permission_example, drupal/file_example, drupal/js_example, drupal/node_type_example, drupal/page_example, drupal/phpunit_example, drupal/plugin_type_example, drupal/tablesort_example, drupal/tour_example",
+                "drupal/file": "Required by drupal/file_example",
+                "drupal/node": "Required by drupal/node_type_example",
+                "drupal/options": "Required by drupal/content_entity_example",
+                "drupal/path": "Required by drupal/node_type_example",
+                "drupal/text": "Required by drupal/node_type_example",
+                "drupal/toolbar": "Required by drupal/tour_example",
+                "drupal/tour": "Required by drupal/tour_example",
+                "drupal/user": "Required by drupal/dbtng_example"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "A variety of example code for you to learn from and hack upon.",
+            "homepage": "https://www.drupal.org/project/examples",
+            "time": "2016-05-30 00:21:37"
+        },
+        {
             "name": "drush/drush",
             "version": "9.0.0-alpha1",
             "source": {
@@ -4153,7 +4255,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/google_analytics": 20
+        "drupal/devel": 20,
+        "drupal/google_analytics": 20,
+        "drupal/examples": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
