@@ -15,6 +15,8 @@ install:
   - composer install
   - export PATH=$PATH:$TRAVIS_BUILD_DIR/vendor/bin
 
+script: drush status
+
 # Uncomment to enable automatic deployments following merges.
 deploy:
   # provider: script
