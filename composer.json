@@ -10,7 +10,6 @@
     "require": {
       "composer/installers":                        "^1.0.20",
       "drupal/core":                                "~8",
-      "drupal/console":                             "~0.10",
       "drupal/devel":                               "dev-8.x-1.x",
       "drupal/google_analytics":                    "dev-8.x-2.x",
       "drupal/memcache" :                           "8.*",
