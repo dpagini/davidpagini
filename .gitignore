@@ -6,11 +6,12 @@ vendor/
 node_modules/
 
 # *** DRUPAL ***
-docroot/core # *** Ignore Druapl Core
-# *** Ignore paths that contain user-generated content.
+# ****** Ignore Drupal Core
+docroot/core/
+# ****** Ignore paths that contain user-generated content.
 docroot/sites/*/files
 docroot/sites/*/private
-# *** Ignore contrib modules. These should be created during build process.
+# ****** Ignore contrib modules. These should be created during build process.
 docroot/modules/contrib
 docroot/themes/contrib
 docroot/profiles/contrib
