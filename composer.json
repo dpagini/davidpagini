@@ -5,10 +5,11 @@
       "drupal": {
         "type": "composer",
         "url":  "https://packages.drupal.org/8"
-      }  
+      }
     },
     "require": {
       "composer/installers":                        "^1.0.20",
+      "drupal-composer/drupal-scaffold":            "^2.0.1",
       "drupal/core":                                "~8",
       "drupal/devel":                               "dev-8.x-1.x",
       "drupal/google_analytics":                    "dev-8.x-2.x",
