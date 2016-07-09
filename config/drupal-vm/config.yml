@@ -1,0 +1,51 @@
+---
+guest_path: "/var/www/davidpagini" # TODO: does this variable not already exist?
+
+# If you need to run multiple instances of Drupal VM, set a unique hostname,
+# machine name, and IP address for each instance.
+vagrant_hostname: davidpagini.local
+vagrant_machine_name: davidpagini
+vagrant_ip: 0.0.0.0
+
+# A list of synced folders, with the keys 'local_path', 'destination', and
+# a 'type' of [nfs|rsync|smb] (leave empty for slow native shares). See
+# http://docs.drupalvm.com/en/latest/extras/syncing-folders/ for more info.
+vagrant_synced_folders:
+  # The first synced folder will be used for the default Drupal installation, if
+  # build_makefile: is 'true'.
+  - local_path: ./
+    destination: /var/www/davidpagini
+    type: nfs
+    create: true
+
+install_site: false
+build_makefile: false
+build_composer: false
+build_composer_project: false
+
+# Required Drupal settings.
+drupal_core_path: "{{ guest_path }}/docroot"
+drupal_mysql_user: drupal
+drupal_mysql_password: drupal
+drupal_mysql_database: davidpagini
+
+# Comment out any extra utilities you don't want to install. If you don't want
+# to install *any* extras, make set this value to an empty set, e.g. `[]`.
+installed_extras:
+  - adminer
+  # - blackfire
+  - drupalconsole
+  - mailhog
+  # - memcached
+  # - newrelic
+  # - nodejs
+  - pimpmylog
+  # - redis
+  # - ruby
+  # - selenium
+  # - solr
+  - varnish
+  # - xdebug
+  # - xhprof
+
+ssh_home: "{{ guest_path }}"
