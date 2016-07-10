@@ -1,0 +1,22 @@
+name: Pagini
+type: profile
+description: 'Basic install profile for davidpagini.com.'
+version: VERSION
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - ckeditor
+  - dblog
+  - dynamic_page_cache
+  - help
+  - node
+  - page_cache
+  - search
+  - toolbar
+  - views
+  - views_ui
+themes:
+  - bartik
+  - stark
+  - seven
