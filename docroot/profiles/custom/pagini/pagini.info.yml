@@ -1,13 +1,17 @@
-name: Minimal
+name: Pagini
 type: profile
-description: 'Build a custom site without pre-configured functionality. Suitable for advanced users.'
+description: 'Basic install profile for davidpagini.com.'
 version: VERSION
 core: 8.x
 dependencies:
-  - node
   - block
+  - ckeditor
   - dblog
-  - page_cache
   - dynamic_page_cache
+  - node
+  - page_cache
+  - toolbar
+  - views
 themes:
   - stark
+  - seven
