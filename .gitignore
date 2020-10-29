@@ -1,0 +1,17 @@
+# Ignore Composer vendor directory
+/vendor
+
+# Ignore the .vagrant folder
+/.vagrant
+
+# *** DRUPAL ***
+/docroot/core
+
+# Ignore all local type files.
+local.*
+
+# Ignore build artifacts
+/deploy
+
+# Misc
+/.idea
