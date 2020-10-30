@@ -6,6 +6,9 @@
 
 # *** DRUPAL ***
 /docroot/core
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
 
 # Ignore all local type files.
 local.*
