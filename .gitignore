@@ -1,11 +1,14 @@
 # Ignore Composer vendor directory
 /vendor
 
-# Ignore the .vagrant folder
-/.vagrant
-
 # *** DRUPAL ***
 /docroot/core
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
+/docroot/sites/*/files
+/files-private
+/drush/Commands/contrib
 
 # Ignore all local type files.
 local.*

@@ -1,0 +1,29 @@
+name: davidpagini.com
+recipe: drupal9
+config:
+  php: '8.1'
+  webroot: ./docroot
+  via: nginx
+  database: mysql
+services:
+  database:
+    # Use more friendly database names.
+    creds:
+      user: drupal
+      password: drupal
+      database: drupal
+  appserver:
+    build:
+      - composer install
+    run:
+      - drush tome:install -y
+      # Print a link to use to log in.
+      - drush uli --uid=2 --no-browser
+proxy:
+  appserver_nginx:
+    - davidpagini.local
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "http://davidpagini.local"
