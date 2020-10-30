@@ -1,2 +1,6 @@
 project:
   machine_name: davidpagini
+
+git:
+  hooks:
+    commit-msg: false

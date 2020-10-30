@@ -9,6 +9,8 @@
 /docroot/modules/contrib
 /docroot/profiles/contrib
 /docroot/themes/contrib
+/docroot/sites/*/files
+/files-private
 
 # Ignore all local type files.
 local.*

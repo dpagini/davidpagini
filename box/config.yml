@@ -27,9 +27,9 @@ drupal_composer_install_dir: "/var/www/davidpagini"
 drupal_core_path: "/var/www/davidpagini/docroot"
 ssh_home: /var/www/davidpagini
 
-drupal_db_user: dpagini
-drupal_db_password: dpagini
-drupal_db_name: davidpagini
+drupal_db_user: drupal
+drupal_db_password: drupal
+drupal_db_name: drupal
 
 # Set this to 'false' if you don't need to install drupal (using the drupal_*
 # settings below), but instead copy down a database (e.g. using drush sql-sync).

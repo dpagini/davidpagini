@@ -4,17 +4,48 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '0 0 * * 0' # weekly
+    - cron: '0 03 * * 0' # Weekly, 3am on Sundays
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:5.7
+        ports:
+          - 3306:3306
+        env:
+          MYSQL_USER: drupal
+          MYSQL_PASSWORD: drupal
+          MYSQL_DATABASE: drupal
+          MYSQL_ROOT_PASSWORD: root
+        options: --health-cmd="mysqladmin ping" --health-interval=5s --health-timeout=2s --health-retries=3
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Get the code
+        uses: actions/checkout@v2
 
       - name: Setup
-        run: composer install
+        run: |
+          composer install
+          ./.github/scripts/setup_environment
 
-      - name: Test
-        run: ansible -v
+      - name: Validate, build & test
+        run: |
+          ./.github/scripts/run
+
+
+
+
+
+
+
+
+
+
+
+
+      - name: Testing
+        run: |
+          ansible --version
+          docker -v
