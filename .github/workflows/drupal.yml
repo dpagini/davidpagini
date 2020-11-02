@@ -34,6 +34,27 @@ jobs:
         run: |
           ./.github/scripts/run
 
+# @TODO: This can only run on releases.
+      - name: Build artifact
+        run: |
+          blt artifact:build
+
+      - name: Build docker image
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: dpagini/davidpagini/drupal
+          context: ./infra/docker
+          tag_with_ref: true
+#        run: |
+#          echo ${{ secrets.PACKAGES_TOKEN }} | docker login docker.pkg.github.com -u juampynr --password-stdin
+#          docker build --tag docker.pkg.github.com/juampynr/drupal8-do/app:${GITHUB_SHA} .
+#          docker push docker.pkg.github.com/juampynr/drupal8-do/app:${GITHUB_SHA}
+#          docker pull docker.pkg.github.com/juampynr/drupal8-do/app:${GITHUB_SHA}
+
+
 
 
 
