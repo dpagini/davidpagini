@@ -46,7 +46,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: dpagini/davidpagini/drupal
-          context: ./infra/docker
+          path: ./infra/docker
           tag_with_ref: true
 #        run: |
 #          echo ${{ secrets.PACKAGES_TOKEN }} | docker login docker.pkg.github.com -u juampynr --password-stdin
