@@ -1,6 +1,9 @@
 project:
   machine_name: davidpagini
 
+deploy:
+  dir: ${repo.root}/deploy
+
 git:
   hooks:
     commit-msg: false
