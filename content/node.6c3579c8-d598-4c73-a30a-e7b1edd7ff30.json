@@ -1,0 +1,96 @@
+{
+    "uuid": [
+        {
+            "value": "6c3579c8-d598-4c73-a30a-e7b1edd7ff30"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "blog",
+            "target_type": "node_type",
+            "target_uuid": "722fed09-8779-46c1-9d06-7871f3045093"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-12-14T20:14:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Initial post, placeholder."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hello World!"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-12-14T20:12:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-12-14T20:14:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<!-- wp:paragraph -->\r\n<p>My site is <em>finally<\/em> live. After <strong>years<\/strong> of procrastinating putting up a web presence, even though I'm a web developer, I finally got around to publishing a website.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Naturally, my first post will be to tell you what I did...<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg",
+            "summary": ""
+        }
+    ],
+    "field_post_date": [
+        {
+            "value": "2022-12-14"
+        }
+    ]
+}

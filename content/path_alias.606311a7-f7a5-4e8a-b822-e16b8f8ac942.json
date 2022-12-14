@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "606311a7-f7a5-4e8a-b822-e16b8f8ac942"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6c3579c8-d598-4c73-a30a-e7b1edd7ff30"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/2022\/12\/hello-world"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

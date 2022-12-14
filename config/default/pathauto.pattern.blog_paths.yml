@@ -1,0 +1,22 @@
+uuid: 4fd9ecc9-0565-47df-a617-2b6d25a56ea1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: blog_paths
+label: 'Blog paths'
+type: 'canonical_entities:node'
+pattern: '/blog/[node:field_post_date:date:custom:Y]/[node:field_post_date:date:custom:m]/[node:title]'
+selection_criteria:
+  78244be6-26c1-498e-bd07-cd65ac9f3927:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 78244be6-26c1-498e-bd07-cd65ac9f3927
+    context_mapping:
+      node: node
+    bundles:
+      blog: blog
+selection_logic: and
+weight: -5
+relationships: {  }

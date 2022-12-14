@@ -1,5 +1,11 @@
 {
     "user.bca6045c-764d-40a2-baa9-b8820c0cf10d": [],
     "user.e598912e-423d-498c-a1a7-d613eb2063a9": [],
-    "user.41ab6e92-3d00-440b-b92a-02910ddcf341": []
+    "user.41ab6e92-3d00-440b-b92a-02910ddcf341": [],
+    "node.6c3579c8-d598-4c73-a30a-e7b1edd7ff30": [
+        "user.41ab6e92-3d00-440b-b92a-02910ddcf341"
+    ],
+    "path_alias.606311a7-f7a5-4e8a-b822-e16b8f8ac942": [
+        "node.6c3579c8-d598-4c73-a30a-e7b1edd7ff30"
+    ]
 }

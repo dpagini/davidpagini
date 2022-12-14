@@ -14,7 +14,7 @@
 local.*
 
 # Ignore build artifacts
-/deploy
+/html
 
 # Misc
 /.idea
