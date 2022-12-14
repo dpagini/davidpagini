@@ -39,7 +39,7 @@ jobs:
 
       - name: Generate artifact
         run: |
-          lando drush tome:static
+          lando drush tome:static --uri=https://www.davidpagini.com
           mkdir ./_site && tar -czvf ./_site/github-pages.tar.gz ./html
 
       - name: Upload artifact
