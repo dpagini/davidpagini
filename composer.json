@@ -22,7 +22,7 @@
         "drupal/admin_toolbar": "^2.4",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
-        "drupal/google_analytics": "^3.1",
+        "drupal/google_analytics": "^4.0",
         "drupal/gutenberg": "^2.5",
         "drupal/honeypot": "^2.0",
         "drupal/metatag": "^1.14",
