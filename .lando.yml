@@ -18,7 +18,7 @@ services:
     run:
       - drush tome:install -y
       # Print a link to use to log in.
-      - drush uli --uid=2 --no-browser
+      - drush uli --uid=2 --no-browser --uri=http://davidpagini.local
 proxy:
   appserver_nginx:
     - davidpagini.local

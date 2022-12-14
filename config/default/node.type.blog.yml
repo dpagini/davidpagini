@@ -1,0 +1,11 @@
+uuid: 722fed09-8779-46c1-9d06-7871f3045093
+langcode: en
+status: true
+dependencies: {  }
+name: Blog
+type: blog
+description: 'Periodic posts written by David Pagini.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
