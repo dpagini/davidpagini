@@ -16,6 +16,9 @@ module:
   google_analytics: 0
   gutenberg: 0
   image: 0
+  link: 0
+  menu_link_content: 0
+  menu_ui: 0
   mysql: 0
   node: 0
   page_cache: 0
