@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.field_post_date
+    - field.field.node.blog.field_tags
     - node.type.blog
   module:
     - datetime
@@ -30,6 +31,14 @@ content:
       format_type: blog_date
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
     region: content
   links:
     settings: {  }

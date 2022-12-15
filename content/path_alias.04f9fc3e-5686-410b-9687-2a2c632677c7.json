@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "04f9fc3e-5686-410b-9687-2a2c632677c7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/6"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/development"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

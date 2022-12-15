@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "13dbfcab-cf9d-49e1-832d-08e94a775767"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/4"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/github"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

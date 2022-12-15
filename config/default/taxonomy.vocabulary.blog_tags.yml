@@ -1,0 +1,8 @@
+uuid: 62081cfb-3fe8-4dee-84fc-239cf2c3965a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog tags'
+vid: blog_tags
+description: 'Categorize blog posts by related topics.'
+weight: 0

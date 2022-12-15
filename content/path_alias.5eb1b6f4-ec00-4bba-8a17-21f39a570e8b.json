@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "5eb1b6f4-ec00-4bba-8a17-21f39a570e8b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/tome"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
