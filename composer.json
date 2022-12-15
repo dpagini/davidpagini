@@ -20,6 +20,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal-tome/tome_drush": "dev-master",
         "drupal/admin_toolbar": "^2.4",
+        "drupal/coder": "^8.3",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
         "drupal/google_analytics": "^4.0",
@@ -45,7 +46,8 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "acquia/blt": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "extra": {

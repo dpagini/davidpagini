@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PHP_CodeSniffer" xsi:noNamespaceSchemaLocation="phpcs.xsd">
+  <description>DavidPagini.com coding standards.</description>
+
+  <config name="ignore_warnings_on_exit" value="0" />
+  <config name="ignore_errors_on_exit" value="0" />
+
+  <arg name="ignore" value="*.css,*.md,*.txt,*.png,*.gif,*.jpeg,*.jpg,*.svg" />
+  <arg name="extensions" value="php,module,inc,install,test,profile,theme,info,yml" />
+  <arg name="basepath" value="." />
+  <arg name="colors" />
+  <arg name="parallel" value="75" />
+  <arg value="snp" />
+
+  <file>docroot/modules/custom</file>
+  <file>docroot/profiles/custom</file>
+  <file>docroot/themes/custom</file>
+  <file>docroot/sites</file>
+
+  <rule ref="Drupal" />
+  <rule ref="DrupalPractice" />
+
+  <exclude-pattern>docroot/sites/*/files</exclude-pattern>
+  <exclude-pattern>*/vendor</exclude-pattern>
+</ruleset>
