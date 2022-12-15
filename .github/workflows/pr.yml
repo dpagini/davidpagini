@@ -22,4 +22,9 @@ jobs:
         run: |
           lando start
 
-    ## Add testing here.
+      - name: Test
+        run: |
+          lando composer validate
+          lando composer audit
+          lando phpcs
+          lando drush pm:security
