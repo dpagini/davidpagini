@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1c6e29bb-68b9-4a62-a4d0-f075ad501736"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/static"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

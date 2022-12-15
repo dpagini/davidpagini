@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog.body
     - field.field.node.blog.field_post_date
+    - field.field.node.blog.field_tags
     - node.type.blog
   module:
     - text
@@ -30,3 +31,4 @@ content:
     region: content
 hidden:
   field_post_date: true
+  field_tags: true

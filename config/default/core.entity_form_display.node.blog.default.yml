@@ -5,9 +5,11 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.field_post_date
+    - field.field.node.blog.field_tags
     - node.type.blog
   module:
     - datetime
+    - path
     - text
 id: node.blog.default
 targetEntityType: node
@@ -35,6 +37,16 @@ content:
     weight: 122
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 123
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "7b249591-865d-4449-8be5-d8628bd2202c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/drupal"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

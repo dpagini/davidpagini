@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "e4b599e8-f99d-4763-81a5-7632e6474a4f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/2"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/lando"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
