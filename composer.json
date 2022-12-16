@@ -52,7 +52,12 @@
     },
     "extra": {
         "patches": {
-
+            "drupal/core": {
+                "Lighthouse SEO: Uncrawlable Link a#main-content": "patches/3222236.patch"
+            },
+            "drupal/gutenberg": {
+                "Gutenberg content loads admin-type libraries.": "patches/3327698.patch"
+            }
         },
         "drupal-scaffold": {
             "locations": {

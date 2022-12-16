@@ -1,0 +1,91 @@
+diff --git a/core/modules/system/templates/page.html.twig b/core/modules/system/templates/page.html.twig
+index 032b724dfe..5d51d7f529 100644
+--- a/core/modules/system/templates/page.html.twig
++++ b/core/modules/system/templates/page.html.twig
+@@ -61,7 +61,7 @@
+   {{ page.help }}
+ 
+   <main role="main">
+-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
++    <a href="#main-content" id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+ 
+     <div class="layout-content">
+       {{ page.content }}
+diff --git a/core/profiles/demo_umami/themes/umami/templates/layout/page.html.twig b/core/profiles/demo_umami/themes/umami/templates/layout/page.html.twig
+index 5215326a3f..c3fef5f0ca 100644
+--- a/core/profiles/demo_umami/themes/umami/templates/layout/page.html.twig
++++ b/core/profiles/demo_umami/themes/umami/templates/layout/page.html.twig
+@@ -107,7 +107,7 @@
+   <main role="main" class="main container">
+ 
+     <div class="layout-content">
+-      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
++      <a href="#main-content" id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+       {{ page.content }}
+     </div>{# /.layout-content #}
+ 
+diff --git a/core/themes/claro/templates/page.html.twig b/core/themes/claro/templates/page.html.twig
+index 2842da2199..c057cefa7e 100644
+--- a/core/themes/claro/templates/page.html.twig
++++ b/core/themes/claro/templates/page.html.twig
+@@ -49,7 +49,7 @@
+   <div class="layout-container">
+     {{ page.pre_content }}
+     <main class="page-content clearfix" role="main">
+-      <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
++      <div class="visually-hidden"><a href="#main-content" id="main-content" tabindex="-1"></a></div>
+       {{ page.highlighted }}
+       {% if page.help %}
+         <div class="help">
+diff --git a/core/themes/olivero/templates/layout/page.html.twig b/core/themes/olivero/templates/layout/page.html.twig
+index 8020262c86..bf91482ff0 100644
+--- a/core/themes/olivero/templates/layout/page.html.twig
++++ b/core/themes/olivero/templates/layout/page.html.twig
+@@ -92,7 +92,7 @@
+     <div id="main-wrapper" class="layout-main-wrapper layout-container">
+       <div id="main" class="layout-main">
+         <div class="main-content">
+-          <a id="main-content" tabindex="-1"></a>
++          <a href="#main-content" id="main-content" tabindex="-1"></a>
+           {{ page.hero }}
+           <div class="main-content__container container">
+             {{ page.highlighted }}
+diff --git a/core/themes/olivero/templates/maintenance-page.html.twig b/core/themes/olivero/templates/maintenance-page.html.twig
+index f1c97e5c6e..69bcfb8aab 100644
+--- a/core/themes/olivero/templates/maintenance-page.html.twig
++++ b/core/themes/olivero/templates/maintenance-page.html.twig
+@@ -35,7 +35,7 @@
+     <div id="main-wrapper" class="layout-main-wrapper layout-container">
+       <div id="main" class="layout-main">
+         <div class="main-content">
+-          <a id="main-content" tabindex="-1"></a>
++          <a href="#main-content" id="main-content" tabindex="-1"></a>
+           <div class="main-content__container container">
+             {{ page.highlighted }}
+             <main role="main">
+diff --git a/core/themes/stable9/templates/layout/page.html.twig b/core/themes/stable9/templates/layout/page.html.twig
+index 669a1c658e..0e0e89e84d 100644
+--- a/core/themes/stable9/templates/layout/page.html.twig
++++ b/core/themes/stable9/templates/layout/page.html.twig
+@@ -59,7 +59,7 @@
+   {{ page.help }}
+ 
+   <main role="main">
+-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
++    <a href="#main-content" id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+ 
+     <div class="layout-content">
+       {{ page.content }}
+diff --git a/core/themes/starterkit_theme/templates/layout/page.html.twig b/core/themes/starterkit_theme/templates/layout/page.html.twig
+index 0f5ba83f20..435259fb8a 100644
+--- a/core/themes/starterkit_theme/templates/layout/page.html.twig
++++ b/core/themes/starterkit_theme/templates/layout/page.html.twig
+@@ -58,7 +58,7 @@
+   {{ page.help }}
+ 
+   <main role="main">
+-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
++    <a href="#main-content" id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+ 
+     <div class="layout-content">
+       {{ page.content }}
