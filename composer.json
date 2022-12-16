@@ -52,8 +52,11 @@
     },
     "extra": {
         "patches": {
+            "drupal/core": {
+                "Lighthouse SEO: Uncrawlable Link a#main-content": "patches/3222236.patch"
+            },
             "drupal/gutenberg": {
-                "Welcome to Gutenberg editor popup appears for anonymous user": "https://www.drupal.org/files/issues/2022-10-05/3310913-9.patch"
+                "Gutenberg content loads admin-type libraries.": "patches/3327698.patch"
             }
         },
         "drupal-scaffold": {

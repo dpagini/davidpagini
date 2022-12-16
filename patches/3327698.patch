@@ -1,0 +1,38 @@
+diff --git a/gutenberg.libraries.yml b/gutenberg.libraries.yml
+index 542ea5c..b32b9af 100644
+--- a/gutenberg.libraries.yml
++++ b/gutenberg.libraries.yml
+@@ -50,8 +50,6 @@ bartik:
+   css:
+     theme:
+       css/bartik.css: { attributes: { id: bartik-block-editor-styles-css } }
+-  dependencies:
+-    - gutenberg/edit-node
+ seven:
+   version: 1.0.0
+   css:
+@@ -67,8 +65,6 @@ olivero:
+   css:
+     theme:
+       css/olivero.css: { attributes: { id: olivero-block-editor-styles-css } }
+-  dependencies:
+-    - gutenberg/edit-node
+ filters:
+   js:
+     js/filters/mapping-fields.js: {  }
+diff --git a/gutenberg.module b/gutenberg.module
+index f2b79bb..02b42e6 100644
+--- a/gutenberg.module
++++ b/gutenberg.module
+@@ -602,9 +602,11 @@ function gutenberg_form_node_form_alter(&$form, FormStateInterface $form_state)
+   $default_theme = \Drupal::config('system.theme')->get('default');
+   if ($default_theme === 'bartik') {
+     $form['#attached']['library'][] = 'gutenberg/bartik';
++    $form['#attached']['library'][] = 'gutenberg/edit-node';
+   }
+   if ($default_theme === 'olivero') {
+     $form['#attached']['library'][] = 'gutenberg/olivero';
++    $form['#attached']['library'][] = 'gutenberg/edit-node';
+   }
+ 
+   $theme = \Drupal::theme()->getActiveTheme();
