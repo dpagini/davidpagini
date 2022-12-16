@@ -52,9 +52,7 @@
     },
     "extra": {
         "patches": {
-            "drupal/gutenberg": {
-                "Welcome to Gutenberg editor popup appears for anonymous user": "https://www.drupal.org/files/issues/2022-10-05/3310913-9.patch"
-            }
+
         },
         "drupal-scaffold": {
             "locations": {
