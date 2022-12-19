@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2022-12-19T03:35:12+00:00",
+            "value": "2022-12-19T03:58:53+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2022-12-19T03:35:12+00:00",
+            "value": "2022-12-19T03:58:53+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -89,6 +89,12 @@
             "value": "<!-- wp:paragraph -->\r\n<p>My site is <em>finally<\/em> live. After <strong>years<\/strong> of procrastinating putting up a web presence (<em>even though I'm a web developer<\/em>), I finally got around to publishing a website.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:code -->\r\n<pre class=\"wp-block-code\"><code>console.log('Hello world!');<\/code><\/pre>\r\n<!-- \/wp:code -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Naturally, my first post will be to tell you what I did...<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:heading -->\r\n<h2 id=\"tries\">A history of tries<\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>In my perfect world, I would put my 10+ years of Drupal experience to work, build a perfect DevOps pipeline, and push directly to production on a Kubernetes cluster running on a cost-effective AWS\/GCP\/Azure infrastructure. I've always been a bit cost conscience... I've considered trying to <em>roll your own<\/em> server with EC2 instances, or the $5\/mo. Amazon LightSail option. But the combination of the cost, and being overly-complicated, these factors always kept me from really pursuing this option.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>I've been using Github Pages for quite a few years now, taking advantage of publishing static (small) websites for free on the Github platform. The idea of using GH pages to host davidpagini.com has been a passing thought for years, I just wanted to be sure it was scalable. I've explored Jekyll and javascript libraries, but never found something I was convinced would be successful, until...<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:heading -->\r\n<h2 id=\"drupal\">Dance with the one who brought you<\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>As previously mentioned, Drupal was always going to be a bit overkill for a simple site like this. It offers <em>amazing<\/em> content management, a library of pre-built functionality (modules), accessibility and responsiveness handled for you, and plenty more features. But then I learned about a module called <a rel=\"noreferrer noopener\" href=\"https:\/\/drupal.org\/project\/tome\" target=\"_blank\">Tome<\/a>, which allows a user to build their site in Drupal, and then export it to a static site, which could be easily hosted directly on Github.com.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>For the last piece of my puzzle, I was in search of a fast and lightweight local environment, which would essentially function as \"production\" for me, that could be simply plugged into a DevOps pipeline, likely to be Github Actions. I was hearing increasingly more about <a rel=\"noreferrer noopener\" href=\"https:\/\/lando.dev\" target=\"_blank\">Lando<\/a>, growing every year in popularity, and we just decided to adopt the tool at work. I've had the pleasure of working with Mike (<a rel=\"noreferrer noopener\" href=\"https:\/\/github.com\/pirog\" target=\"_blank\">@pirog<\/a>) and Alec (<a rel=\"noreferrer noopener\" href=\"https:\/\/github.com\/reynoldsalec\" target=\"_blank\">@reynoldsalec<\/a>) from the Lando team, and finally gave the tool a try. <\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>So I'm going with Drupal, Tome, Lando, Github, and a suite of other tools to bring this site to life. I intend on writing about this journey further in the near future, but so far I'm very pleased with ease of standing up a site I can be proud of...<\/p>\r\n<!-- \/wp:paragraph -->",
             "format": "gutenberg",
             "summary": "Using Github pages, Drupal, Lando and Tome to bring together a live static site implementation of DavidPagini.com."
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 1,
+            "identifier": ""
         }
     ],
     "field_post_date": [
