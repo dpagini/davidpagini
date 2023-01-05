@@ -55,7 +55,7 @@
     "extra": {
         "patches": {
             "drupal/disqus": {
-                "Lazy load / async load Disqus libraries for better performance": "https://www.drupal.org/files/issues/2022-10-20/disqus-1508786-lazyload-intersectionobserver-47-1.x.patch"
+                "Lazy load / async load Disqus libraries for better performance": "https://www.drupal.org/files/issues/2022-10-19/disqus-1508786-lazyload-intersectionobserver-46-2.0.x.patch"
             },
             "drupal/core": {
                 "Lighthouse SEO: Uncrawlable Link a#main-content": "patches/3222236.patch"
