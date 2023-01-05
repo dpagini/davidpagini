@@ -24,6 +24,7 @@
         "drupal/coder": "^8.3",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
+        "drupal/disqus": "^2.0",
         "drupal/google_analytics": "^4.0",
         "drupal/gutenberg": "^2.5",
         "drupal/honeypot": "^2.0",
@@ -53,6 +54,9 @@
     },
     "extra": {
         "patches": {
+            "drupal/disqus": {
+                "Lazy load / async load Disqus libraries for better performance": "https://www.drupal.org/files/issues/2022-10-19/disqus-1508786-lazyload-intersectionobserver-46-2.0.x.patch"
+            },
             "drupal/core": {
                 "Lighthouse SEO: Uncrawlable Link a#main-content": "patches/3222236.patch"
             },
