@@ -771,4 +771,7 @@ $settings['tome_static_path_exclude'] = [
   '/user/*',
   '/admin',
   '/admin/*',
+  // Ignore /node & /taxonomy paths to use friendly paths instead.
+  '/node/*',
+  '/taxonomy/*',
 ];
