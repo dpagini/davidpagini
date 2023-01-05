@@ -1,0 +1,25 @@
+From dabf06bddfa6e5d54164c68bc90f753a4c4a3686 Mon Sep 17 00:00:00 2001
+From: David Pagini <davidpagini+drupal@gmail.com>
+Date: Thu, 5 Jan 2023 16:32:09 -0500
+Subject: [PATCH] Relative URL fix.
+
+---
+ modules/tome_static/src/StaticGenerator.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/modules/tome_static/src/StaticGenerator.php b/modules/tome_static/src/StaticGenerator.php
+index b88b167..f493656 100644
+--- a/modules/tome_static/src/StaticGenerator.php
++++ b/modules/tome_static/src/StaticGenerator.php
+@@ -365,7 +365,7 @@ class StaticGenerator implements StaticGeneratorInterface {
+   protected function getRealPaths(array $paths, $root) {
+     $root_dir = dirname($this->sanitizePath($root));
+     foreach ($paths as &$path) {
+-      if (strpos($path, '../') !== FALSE) {
++      if (strpos($path, '../') === 0) {
+         $path = $this->joinPaths($root_dir, $path);
+       }
+     }
+-- 
+GitLab
+

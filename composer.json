@@ -54,14 +54,17 @@
     },
     "extra": {
         "patches": {
-            "drupal/disqus": {
-                "Lazy load / async load Disqus libraries for better performance": "https://www.drupal.org/files/issues/2022-10-19/disqus-1508786-lazyload-intersectionobserver-46-2.0.x.patch"
-            },
             "drupal/core": {
                 "Lighthouse SEO: Uncrawlable Link a#main-content": "patches/3222236.patch"
             },
+            "drupal/disqus": {
+                "Lazy load / async load Disqus libraries for better performance": "https://www.drupal.org/files/issues/2022-10-19/disqus-1508786-lazyload-intersectionobserver-46-2.0.x.patch"
+            },
             "drupal/gutenberg": {
                 "Gutenberg content loads admin-type libraries.": "patches/3327698.patch"
+            },
+            "drupal/tome": {
+                "Find relative URLs in compiled CSS": "patches/3331190-2.patch"
             }
         },
         "drupal-scaffold": {
