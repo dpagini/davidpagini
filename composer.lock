@@ -2413,8 +2413,13 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
+<<<<<<< HEAD
                     "version": "8.x-1.10",
                     "datestamp": "1672845245",
+=======
+                    "version": "8.x-1.9",
+                    "datestamp": "1671002492",
+>>>>>>> 442a947b9c05ecdaea9418c0f635c335c9300871
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
