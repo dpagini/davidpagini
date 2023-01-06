@@ -5,11 +5,11 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - genie
 _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: olivero_breadcrumbs
-theme: olivero
+id: genie_breadcrumbs
+theme: genie
 region: breadcrumb
 weight: 0
 provider: null

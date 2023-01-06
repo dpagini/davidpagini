@@ -5,11 +5,11 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - genie
 _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
-id: olivero_powered
-theme: olivero
+id: genie_powered
+theme: genie
 region: footer_bottom
 weight: 0
 provider: null
