@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "ac97a006-5bc8-40aa-9993-8fa77c646fde"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "filename": [
+        {
+            "value": "sailor-penguin.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "temporary:\/\/sailor-penguin.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 11279
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-06T04:02:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-06T04:02:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
