@@ -50,7 +50,6 @@ module:
   minimal: 1000
 theme:
   stark: 0
-  genie: 0
   olivero: 0
   claro: 0
 profile: minimal
