@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-01-06T01:49:55+00:00",
+            "value": "2023-01-06T17:08:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -86,7 +86,7 @@
     ],
     "body": [
         {
-            "value": "My name is David Pagini. I was born & bred in Meriden, CT, and still call Connecticut home.",
+            "value": "<p>To state the obvious, my name is Dave. Born &amp; bred in Meriden, CT, and still calling Connecticut home, I am a tech enthusiast whose interests include coastal living, Dave Matthews Band, all kinds of sports (<em>but especially the Red Sox, Patriots &amp; UConn Huskies<\/em>), my dog and <strong>most importantly<\/strong> my family.<\/p>",
             "format": "rich_text",
             "summary": ""
         }
