@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - genie
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
-id: olivero_primary_local_tasks
-theme: olivero
+id: genie_primary_local_tasks
+theme: genie
 region: highlighted
 weight: -4
 provider: null
