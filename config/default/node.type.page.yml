@@ -1,0 +1,17 @@
+uuid: 2840d8fd-b9e4-4e6e-837e-d2850cc82f50
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Page
+type: page
+description: 'Simple web pages (title/body).'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

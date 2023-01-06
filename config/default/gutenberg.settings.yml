@@ -87,3 +87,4 @@ blog_allowed_drupal_blocks:
   system_branding_block: 0
   node_syndicate_block: 0
   drupalblock/all_user: 0
+page_enable_full: 0

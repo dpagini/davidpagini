@@ -1,0 +1,53 @@
+uuid: 53cd34c7-07cd-41f1-a84e-7c9268563cbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - gutenberg
+name: 'Rich text'
+format: rich_text
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false
+  gutenberg:
+    id: gutenberg
+    provider: gutenberg
+    status: false
+    weight: 0
+    settings:
+      processor_settings:
+        oembed:
+          maxwidth: 800
+          providers: "#https?://(www\\.)?youtube.com/watch.*#i | https://www.youtube.com/oembed | true\r\n#https?://youtu\\.be/\\w*#i | https://www.youtube.com/oembed | true\r\n#https?://(www\\.)?vimeo\\.com/\\w*#i | http://vimeo.com/api/oembed.json | true\r\n#http://(www\\.)?hulu\\.com/watch/.*#i | http://www.hulu.com/api/oembed.json | true\r\n#https?://(www\\.)?twitter.com/.+?/status(es)?/.*#i | https://api.twitter.com/1/statuses/oembed.json | true\r\n#https?:\\/\\/(www\\.)?google\\.com\\/maps\\/embed\\?pb\\=.*#i | http://open.iframe.ly/api/oembed | true\r\n#https?://maps.google.com/maps.*#i | google-maps | LOCAL\r\n#https?://docs.google.com/(document|spreadsheet)/.*#i | google-docs | LOCAL"
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

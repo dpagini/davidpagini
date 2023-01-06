@@ -2,8 +2,11 @@ uuid: e7ffde1e-64af-4218-a923-c573b4a52cc5
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.rich_text
   module:
     - disqus
+    - filter
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -13,4 +16,5 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format rich_text'
   - 'view disqus comments'

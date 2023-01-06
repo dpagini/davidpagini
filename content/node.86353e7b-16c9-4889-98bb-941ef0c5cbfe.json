@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "86353e7b-16c9-4889-98bb-941ef0c5cbfe"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "2840d8fd-b9e4-4e6e-837e-d2850cc82f50"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-01-06T01:49:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "title": [
+        {
+            "value": "About Me"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-06T01:28:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-06T01:49:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/about",
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "body": [
+        {
+            "value": "My name is David Pagini. I was born & bred in Meriden, CT, and still call Connecticut home.",
+            "format": "rich_text",
+            "summary": ""
+        }
+    ]
+}
