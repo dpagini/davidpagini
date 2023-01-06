@@ -30,6 +30,7 @@
         "drupal/honeypot": "^2.0",
         "drupal/metatag": "^1.14",
         "drupal/pathauto": "^1.8",
+        "drupal/schemadotorg": "1.0.x-dev",
         "drupal/tome": "^1.8",
         "drupal/webform": "^6",
         "drush/drush": "^11.3"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "310b8f0c304a626cbc2f0f9f50e84ef8",
+    "content-hash": "95c6cbd897f6769cf58d208e071d625c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2439,6 +2439,93 @@
             }
         },
         {
+            "name": "drupal/schemadotorg",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/schemadotorg.git",
+                "reference": "a4cdf4f151f4b441de6d92265eeff05f29b18422"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10.0",
+                "michelf/php-markdown": "^1.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "drupal/address": "~1.0",
+                "drupal/allowed_formats": "*",
+                "drupal/auto_entitylabel": "*",
+                "drupal/ckeditor": "~1.0",
+                "drupal/devel": "*",
+                "drupal/entity_reference_revisions": "*",
+                "drupal/entity_usage": "~2.0",
+                "drupal/field_group": "*",
+                "drupal/flexfield": "*",
+                "drupal/focal_point": "*",
+                "drupal/inline_entity_form": "*",
+                "drupal/jsonapi_extras": "*",
+                "drupal/layout_paragraphs": "*",
+                "drupal/link_attributes": "*",
+                "drupal/metatag": "*",
+                "drupal/office_hours": "*",
+                "drupal/paragraphs": "*",
+                "drupal/paragraphs-paragraphs_library": "*",
+                "drupal/range": "~1.0",
+                "drupal/rdf": "~2.0",
+                "drupal/scheduler": "~1.0",
+                "drupal/schemadotorg_jsonapi": "*",
+                "drupal/schemadotorg_jsonld": "*",
+                "drupal/schemadotorg_media": "*",
+                "drupal/schemadotorg_paragraphs": "*",
+                "drupal/simple_sitemap": "*",
+                "drupal/smart_date": "*",
+                "drupal/smart_date_recur": "*"
+            },
+            "suggest": {
+                "drupal/address": "Provides functionality for storing, validating and displaying international postal addresses.",
+                "drupal/field_group": "Provides the ability to group your fields on both form and display.",
+                "drupal/inline_entity_form": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
+                "drupal/jsonapi_extras": "Builds on top of JSON:API to deliver extra functionality.",
+                "drupal/paragraphs": "Enables the creation of paragraphs (i.e. component) entities."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.x-dev",
+                    "datestamp": "1672501973",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Rockowitz (jrockowitz)",
+                    "homepage": "https://www.drupal.org/u/jrockowitz",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Uses Schema.org types and properties as the content architecture foundation for Drupal website.",
+            "homepage": "https://drupal.org/project/schemadotorg",
+            "support": {
+                "source": "https://git.drupalcode.org/project/schemadotorg",
+                "issues": "https://drupal.org/project/issues/schemadotorg"
+            }
+        },
+        {
             "name": "drupal/token",
             "version": "1.11.0",
             "source": {
@@ -3878,6 +3965,59 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.7.6"
             },
             "time": "2022-08-18T16:18:26+00:00"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+                "reference": "5024d623c1a057dcd2d076d25b7d270a1d0d55f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.3 <5.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "support": {
+                "issues": "https://github.com/michelf/php-markdown/issues",
+                "source": "https://github.com/michelf/php-markdown/tree/1.9.1"
+            },
+            "time": "2021-11-24T02:52:38+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -8476,7 +8616,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal-tome/tome_drush": 20
+        "drupal-tome/tome_drush": 20,
+        "drupal/schemadotorg": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
