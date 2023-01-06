@@ -56,7 +56,7 @@ display:
       access:
         type: perm
         options:
-          perm: 'access content'
+          perm: 'administer site configuration'
       cache:
         type: tag
         options: {  }
@@ -306,7 +306,10 @@ display:
       query:
         type: views_query
         options: {  }
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
       path: taxonomy/term/%
     cache_metadata:
       max-age: -1
