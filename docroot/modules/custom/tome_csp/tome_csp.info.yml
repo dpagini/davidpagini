@@ -1,0 +1,7 @@
+name: 'Tome CSP'
+type: module
+description: 'Provide a metatag plugin.'
+core_version_requirement: ^9 || ^10
+package: Tome
+dependencies:
+  - metatag:metatag
