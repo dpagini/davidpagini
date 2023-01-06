@@ -2568,7 +2568,7 @@
         },
         {
             "name": "drupal/tome_base",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "require": {
                 "drupal/core": "^8 || ^9 || ^10",
                 "drupal/tome": "^1"
@@ -2576,8 +2576,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.9",
-                    "datestamp": "1671002492",
+                    "version": "8.x-1.10",
+                    "datestamp": "1672845245",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2606,7 +2606,7 @@
         },
         {
             "name": "drupal/tome_static",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "require": {
                 "drupal/core": "^8 || ^9 || ^10",
                 "drupal/tome": "^1",
@@ -2615,8 +2615,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.9",
-                    "datestamp": "1671002492",
+                    "version": "8.x-1.10",
+                    "datestamp": "1672845245",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2645,7 +2645,7 @@
         },
         {
             "name": "drupal/tome_sync",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "require": {
                 "drupal/core": "^8 || ^9 || ^10",
                 "drupal/tome": "^1",
@@ -2654,8 +2654,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.9",
-                    "datestamp": "1671002492",
+                    "version": "8.x-1.10",
+                    "datestamp": "1672845245",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
