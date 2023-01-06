@@ -777,3 +777,15 @@ $settings['tome_static_path_exclude'] = [
   # Other entries.
   '/disqus/closewindow',
 ];
+
+/**
+ * Local only settings.
+ */
+$local_settings = dirname(DRUPAL_ROOT) . '/docroot/sites/default/local.settings.php';
+if (file_exists($local_settings)) {
+  require_once $local_settings;
+}
+$local_services = dirname(DRUPAL_ROOT) . '/docroot/sites/default/local.services.yml';
+if (file_exists($local_services)) {
+  $settings['container_yamls'][] = $local_services;
+}
