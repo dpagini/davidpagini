@@ -1,0 +1,3 @@
+metatag.metatag_tag.csp:
+  type: label
+  label: 'Content security policy'
