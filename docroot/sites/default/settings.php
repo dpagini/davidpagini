@@ -767,11 +767,13 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Tome settings.
  */
 $settings['tome_static_path_exclude'] = [
+  # Non-canonical path for the homepage view.
+  '/node',
+  # Don't show any user pages.
   '/user',
-  '/user/*',
-  '/admin',
-  '/admin/*',
-  // Ignore /node & /taxonomy paths to use friendly paths instead.
-  '/node/*',
-  '/taxonomy/*',
+  '_entity:user:en:0',
+  '_entity:user:en:1',
+  '_entity:user:en:2',
+  # Other entries.
+  '/disqus/closewindow',
 ];
