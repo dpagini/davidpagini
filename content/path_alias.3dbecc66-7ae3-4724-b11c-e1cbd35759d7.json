@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "3dbecc66-7ae3-4724-b11c-e1cbd35759d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/7"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/tag\/boat"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

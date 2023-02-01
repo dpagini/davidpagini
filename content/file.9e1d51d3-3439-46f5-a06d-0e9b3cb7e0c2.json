@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "9e1d51d3-3439-46f5-a06d-0e9b3cb7e0c2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_4422.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/IMG_4422.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1140878
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-18T03:16:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-02-01T04:23:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
