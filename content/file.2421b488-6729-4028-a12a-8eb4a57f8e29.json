@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2421b488-6729-4028-a12a-8eb4a57f8e29"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "41ab6e92-3d00-440b-b92a-02910ddcf341"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_4315.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/IMG_4315.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 752796
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-18T03:23:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-02-01T04:23:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
