@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "326f37e2-fece-47ca-86b8-bf84663968c3"
+            "value": "a068d00b-6011-4de5-8714-72176ad88719"
         }
     ],
     "langcode": [
@@ -17,12 +17,12 @@
     ],
     "filename": [
         {
-            "value": "IMG_4383.jpeg"
+            "value": "IMG_4311.jpeg"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/inline-images\/IMG_4383.jpeg"
+            "value": "public:\/\/inline-images\/IMG_4311.jpeg"
         }
     ],
     "filemime": [
@@ -32,7 +32,7 @@
     ],
     "filesize": [
         {
-            "value": 1794312
+            "value": 745831
         }
     ],
     "status": [
@@ -42,13 +42,13 @@
     ],
     "created": [
         {
-            "value": "2023-01-18T03:23:12+00:00",
+            "value": "2023-02-02T19:39:25+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-02-01T04:23:51+00:00",
+            "value": "2023-02-02T19:45:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]
