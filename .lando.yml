@@ -20,6 +20,7 @@ services:
       - drush tome:install -y && drush cr
       # Print a link to use to log in.
       - drush uli --uid=2 --no-browser --uri=http://local.davidpagini.com
+      - chmod -R 755 docroot/sites/default/files
 proxy:
   appserver_nginx:
     - local.davidpagini.com
